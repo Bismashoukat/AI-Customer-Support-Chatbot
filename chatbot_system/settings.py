@@ -1,15 +1,18 @@
 from pathlib import Path
 import os
+from dotenv import load_dotenv
+
+# Load .env file
+load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'django-insecure-x190zx@!)a3m7&7y156^k$rweze37i(_^ha6&$j0=a^5fcrvx8'
+SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-x190zx@!)a3m7&7y156^k$rweze37i(_^ha6&$j0=a^5fcrvx8')
 
-DEBUG = True
+DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
 ALLOWED_HOSTS = ['*']
 
-# ✅ APPS
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -17,7 +20,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'chatbot',  # ✅ Chatbot app
+    'chatbot',
 ]
 
 MIDDLEWARE = [
@@ -32,7 +35,6 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'chatbot_system.urls'
 
-# ✅ TEMPLATES
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -50,7 +52,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'chatbot_system.wsgi.application'
 
-# ✅ DATABASE
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -70,11 +71,13 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 USE_TZ = True
 
-# ✅ STATIC FILES
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# ✅ GROQ API KEY
-GROQ_API_KEY = os.environ.get('GROQ_API_KEY')
+# ✅ GROQ API KEY — .env se load hogi
+GROQ_API_KEY = os.environ.get('GROQ_API_KEY', '')
+
+# ✅ ALLOWED EMBED DOMAINS — sirf yeh sites embed kar sakti hain
+ALLOWED_EMBED_DOMAINS = os.environ.get('ALLOWED_EMBED_DOMAINS', '*')

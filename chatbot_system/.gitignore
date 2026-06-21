@@ -1,6 +1,21 @@
-.env
-venv/
+# Python
 __pycache__/
-*.pyc
-db.sqlite3
+*.py[cod]
+venv/
+env/
+
+# Django
+*.sqlite3
+*.log
 staticfiles/
+
+# Environment — API KEY HIDE
+.env
+*.env
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
