@@ -22,6 +22,22 @@
 
 ---
 
+## 📸 Screenshots
+
+### 🌙 Dark Mode
+![Dark Mode](<img width="1600" height="793" alt="dark mode" src="https://github.com/user-attachments/assets/7a6bcd9d-b00b-404d-aeca-d1ac7a0e7942" />
+)
+
+### ☀️ Light Mode  
+![Light Mode](<img width="1600" height="812" alt="light mode" src="https://github.com/user-attachments/assets/1ea88d36-8f90-4ca2-8343-ee7f94806bae" />
+)
+
+### 📱 Mobile View
+![Mobile](<img width="720" height="1426" alt="mobile view" src="https://github.com/user-attachments/assets/72109b80-afb2-457f-80c9-e2edc6804431" />
+)
+
+
+
 ## 🛠️ Tech Stack
 
 | Layer | Technology |
