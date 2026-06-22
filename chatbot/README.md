@@ -25,17 +25,20 @@
 ## 📸 Screenshots
 
 ### 🌙 Dark Mode
-![Dark Mode](<img width="1600" height="793" alt="dark mode" src="https://github.com/user-attachments/assets/08f3b2db-0ec8-44a9-969d-e6c35da9fce5" />
+![Dark Mode](<img width="1600" height="793" alt="dark mode" src="https://github.com/user-attachments/assets/2300fdbb-48bb-4f5b-8812-c61d61ad3dfd" />
+
 
 )
 
 ### ☀️ Light Mode  
-![Light Mode](<img width="1600" height="812" alt="light mode" src="https://github.com/user-attachments/assets/1cbf4965-de69-4076-9032-523a9eebe6d1" />
+![Light Mode](<img width="1600" height="812" alt="light mode" src="https://github.com/user-attachments/assets/57a97206-0ba9-434d-94c1-a93ac7d93512" />
+
 
 )
 
 ### 📱 Mobile View
-![Mobile](<img width="720" height="1426" alt="mobile view" src="https://github.com/user-attachments/assets/71277479-460d-40e5-9002-0b9cd64c7ee3" />
+![Mobile](<img width="720" height="1426" alt="mobile view" src="https://github.com/user-attachments/assets/98e8d294-43a6-4b77-92fd-cbac4606a121" />
+
 
 )
 
